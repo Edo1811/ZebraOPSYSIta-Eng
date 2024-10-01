@@ -31,16 +31,16 @@ Thanks for using GEA innovation's Zebra basic operating system!
 
 def help():
     print("""
-Zebra Alpha 0.2.1
+Zebra Alpha 0.3.2
 
 Functions Documentation:
 regedit  (pos, value)
-changes settings inside the program - Does nothing in 0.2.1
+changes settings inside the program - you can change only the reg[0]. False: keeps programm running. True: Stops the programm. It is always better to use quit()
 (pos: Set the position of the changed setting. Adding setting is not possible and is useless because it doesn't affect the code itself.
 value: change the value associated to the setting on the position given.)
 
 memoryedit  (pos, value)
-edits the memory. Warning: In 0.2.1 the memory gets reset every time the program runs.
+edits the memory. Warning: In 0.3.2 the memory gets reset every time the program runs.
 (pos: the position where the memory gets edited.
 value: set/change the value on the selected position)
 
