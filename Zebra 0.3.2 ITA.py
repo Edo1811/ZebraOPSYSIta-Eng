@@ -35,7 +35,7 @@ Zebra Alpha 0.2.1
 
 Documentazione delle Funzioni:
 regedit  (posizione, valore)
-modifica le impostazioni all'interno del programma - Non fa nulla nella versione 0.2.1
+modifica le impostazioni all'interno del programma - Puoi solo modificare la posizione [0]: False: Tiene il programma attivo. True: frema il loop principale dell programma
 (posizione: imposta la posizione della modifica dell'impostazione. Aggiungere un'impostazione non è possibile e non ha senso perché non influisce sul codice stesso.
 valore: cambia il valore associato all'impostazione nella posizione data.)
 
